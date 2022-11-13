@@ -72,7 +72,7 @@ export const Menu = () => {
     }
     // console.log(username);
     const goProfile=()=>{
-        history.push('/profile/'+username)
+        history.push('/front-end/profile/'+username)
     }
     const [infoBook,setInfoBook] = useState([])
     useEffect(()=>{
@@ -155,7 +155,7 @@ export const Menu = () => {
                 </NavDropdown.Item>
                 </NavDropdown>
             {/* wallet */}
-            <Nav.Link onClick={()=> history.push('/wallet/'+username)}>{t('menu.wallet')}</Nav.Link>
+            <Nav.Link onClick={()=> history.push('/front-end/wallet/'+username)}>{t('menu.wallet')}</Nav.Link>
         </Nav>
         <Toast show={showA} onClose={toggleShowA}>
         <Toast.Header>

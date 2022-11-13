@@ -63,7 +63,7 @@ export const Header = () => {
     }
     // console.log(username);
     const goProfile=()=>{
-        history.push('/profile/'+username)
+        history.push('/front-end/profile/'+username)
     }
     const [infoBook,setInfoBook] = useState([])
     useEffect(()=>{
@@ -121,7 +121,7 @@ export const Header = () => {
                     />
                 </Button>}
                 {username!=''
-                    ?<Nav.Link href="/logout">{t('header.signout')}</Nav.Link>
+                    ?<Nav.Link href="/front-end/logout">{t('header.signout')}</Nav.Link>
                     :<Nav.Link onClick={handleClickOpen}>{t('header.signin')}</Nav.Link>
                     }
                 </Nav.Item>

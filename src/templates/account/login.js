@@ -52,7 +52,7 @@ export default function Login(){
       localStorage.setItem('token',rs.data['token']);
       // console.log(parseJwt(rs.data['token']));
       // console.log(rs.data['token']);
-      history.push("/");
+      history.push("/front-end/");
     }catch(e){
       console.log(e.message);
       enqueueSnackbar("Login Fail. Try Again !!",{variant:'error'});

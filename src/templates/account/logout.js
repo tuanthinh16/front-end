@@ -2,7 +2,7 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { postAPI } from '../service/api';
 const logout = ()=>{
-    return postAPI('/logout')
+    return postAPI('/front-end/logout')
 }
 function Logout(){
     localStorage.removeItem("token");
