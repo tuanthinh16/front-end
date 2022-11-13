@@ -1,0 +1,74 @@
+#fullname{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    float: bottom;
+    text-align: bottom;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+}
+div .cardProfile{
+    position: absolute;
+    padding: 30px 10px;
+    /* background-color: green; */
+    max-width: 100rem;
+    width: 100%;
+    float:left;
+    left: 0px;
+}
+.container-profile{
+    margin-left: 50px;
+}
+TableCell{
+    max-width: 200px;
+}
+.imageData{
+    height: 500px;
+    width: 100%;
+}
+#wallet{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 20px;
+}
+#wallet:hover #helpText{
+    visibility: visible;
+}
+#wallet #helpText{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+.container-book{
+    width: 100%;
+    /* background-image: url('../images/bg.png'); */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div .contentBook{
+    /* background-color: aqua; */
+    position: absolute;
+}
+div .contentBook .imageBook{
+    height: 300px;
+    width: 300px;
+}
+.container-book .logo{
+    position: absolute;
+}
+.container-book .Header{
+    padding-top: 10px;
+    
+}

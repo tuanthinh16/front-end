@@ -1,0 +1,62 @@
+{
+    "header": {
+        "market": "Market",
+        "profile": "Profile",
+        "notification": "Notification",
+        "friends": "Friends",
+        "search": "Search",
+        "signin": "Login",
+        "signup": "Register",
+        "signout": "Logout",
+        "noti":"Welcome to forum PENGUIN. We always listen and understand with every suggestion from our customers. Hope that you will have a great experience with us.Thank you !!"
+    },
+    "menu": {
+        "language": "Language",
+        "lan-vi":"Viet Nam",
+        "lan-en":"English",
+        "create": "Create Product",
+        "sell":"Sell Product",
+        "give": "Give Product",
+        "categories": "Categories",
+        "categories-action":"Action",
+        "categories-art":"Art & Music",
+        "categories-business":"Business",
+        "categories-computer":"Computer & Technology",
+        "categories-history":"History",
+        "categories-entertainment":"Entertainment",
+        "categories-sport":"Sport",
+        "categories-travel":"Travel",
+        "categories-teen":"Teen",
+        "categories-other":"Other",
+        "country": "Country",
+        "country-france":"France",
+        "country-usa":"USA",
+        "wallet":"Wallet"
+
+    },
+    "book":{
+        "name":"Name",
+        "type":"Type",
+        "detail":"More Information",
+        "country": "Country",
+        "nxb":"Publishing Company",
+        "date-xb":"Date Publish",
+        "sl":"Amount",
+        "header":"Upload Your Book"
+
+    },
+    "wallet":{
+        "withdraw":"Withdraw",
+        "deposit":"Deposit",
+        "send":"Send",
+        "history":"Transfer History"
+    },
+    "Footer":{
+        "about":"About us",
+        "contact":"Contact",
+        "help":"Help",
+        "about-content":"This instance of user behavior is exactly why your site needs a well-designed website footer. Think of a footer as a safety net for users who haven’t been able to find the information they’re looking for in other sections of your site. By providing a link to your return policy or contact form, for example, you can prevent some visitors from leaving your ecommerce site and never returning.",
+        "help-content":"For any questions and suggestions, please contact us at the",
+        "help-center":"Help Center"
+    }
+}

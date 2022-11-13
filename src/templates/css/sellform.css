@@ -1,0 +1,14 @@
+div .a{
+    display: flex;
+    padding: 30px;
+
+}
+.logo-book img{
+    max-height: 2000px;
+    height: 16rem;
+    width: 16rem;
+    padding: 20px;
+}
+.content-sell{
+    max-width: 500px;
+}

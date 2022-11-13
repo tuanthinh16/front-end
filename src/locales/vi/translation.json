@@ -1,0 +1,62 @@
+{
+    "header": {
+        "market": "Chợ",
+        "profile": "Hồ Sơ",
+        "notification": "Thông Báo",
+        "friends": "Bạn Bè",
+        "search": "Tìm",
+        "signin": "Đăng Nhập",
+        "signup": "Đăng Ký",
+        "signout": "Đăng Xuất",
+        "noti":"Chào mừng bạn đến với diễn đàn PENGUIN. Chúng tôi luôn lắng nghe và thấu hiểu với mọi góp ý từ khách hàng. Hy vọng rằng bạn sẽ có một trải nghiệm tuyệt vời với chúng tôi. Cảm ơn bạn !!"
+    },
+    "menu": {
+        "language": "Ngôn Ngữ",
+        "lan-vi":"Việt Nam",
+        "lan-en":"Tiếng Anh",
+        "create": "Thêm SP",
+        "sell":"Bán SP",
+        "give": "Tặng SP",
+        "categories": "Thể Loại",
+        "categories-action":"Hành Động",
+        "categories-art":"Nghệ Thuật & Âm Nhạc",
+        "categories-business":"Kinh doanh",
+        "categories-computer":"Máy Tính & Công Nghệ",
+        "categories-history":"Lịch Sử",
+        "categories-entertainment":"Giải Trí",
+        "categories-sport":"Thể Thao",
+        "categories-travel":"Du Lịch",
+        "categories-teen":"Tuổi Trẻ",
+        "categories-other":"Khác",
+        "country": "Quốc Gia",
+        "country-france":"Pháp",
+        "country-usa":"Mỹ",
+        "wallet":"Ví"
+
+    },
+    "book":{
+        "name":"Tên Sách",
+        "type":"Thể Loại",
+        "detail":"Thông Tin Thêm",
+        "country": "Quốc Gia",
+        "nxb":"Nhà Xuất Bản",
+        "date-xb":"Năm Xuất Bản",
+        "sl":"Số Lượng",
+        "header":"Tải Lên Sách Của Bạn"
+
+    },
+    "wallet":{
+        "withdraw":"Rút Tiền",
+        "deposit":"Nạp Tiền",
+        "send":"Gửi",
+        "history":"Lịch Sử Giao Dịch"
+    },
+    "Footer":{
+        "about":"Về Chúng Tôi",
+        "contact":"Liên Hệ",
+        "help":"Trợ Giúp",
+        "about-content":"Ví dụ về hành vi của người dùng này chính là lý do tại sao trang web của bạn cần một chân trang trang web được thiết kế tốt. Hãy coi footer như một mạng lưới an toàn cho những người dùng không thể tìm thấy thông tin họ đang tìm kiếm trong các phần khác của trang web của bạn. Ví dụ: bằng cách cung cấp liên kết đến chính sách trả hàng hoặc biểu mẫu liên hệ, bạn có thể ngăn một số khách truy cập rời khỏi trang web thương mại điện tử của bạn và không bao giờ quay lại.",
+        "help-content":"Đối với bất kỳ câu hỏi và đề xuất nào, vui lòng liên hệ với chúng tôi tại ",
+        "help-center":"Trung Tâm Trợ Giúp"
+    }
+}

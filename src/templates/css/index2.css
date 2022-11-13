@@ -1,0 +1,76 @@
+.menu{
+    position: relative;
+    /* background-color: gray; */
+    float: left;
+    max-width: 35rem;
+    width: 20rem;
+    max-height: 300rem;
+    height:100%;
+    margin-top: 4rem;
+}
+.headercontent{
+    /* float: left; */
+    height: 100px;
+    /* background-color: red; */
+}
+.headercontent > .header{
+    /* background-color: green; */
+    width: 100%;
+    max-height: 5rem;
+    height: 5rem;
+    padding: 10px;
+}
+.homeindex{
+    width: 100%;
+    background-image: url('../images/bg-1.png');
+    /* background-position: center; */
+    /* background-repeat: inherit; */
+    /* background-size: cover; */
+    min-height: 1200px;
+    display: flex;
+}
+.anh{
+    opacity: 0.2;
+}
+*{
+    font-size: x-large;
+}
+.d-flex{
+    max-width: 40rem;
+    float:right;
+    padding-right: 50px;
+}
+.nav-1{
+    float: left;
+    padding-right: 50px;
+}
+.menucontent{
+    font-weight: bold;
+    font-size: xx-large;
+    /* background-color: rgba(216, 213, 210, 0.781); */
+}
+.menucontent a{
+    color: black;
+    padding-top: 50px;
+    
+}
+.menucontent a .item{
+    text-align: center;
+    color: green;
+}
+.content{
+    /* display: block; */
+    position: relative;
+    margin-top: 4rem;
+}
+.content .card img{
+    /* display: contents; */
+    height: 9rem;
+    width: 9rem;
+}
+.content .card #detail-name{
+    text-overflow: ellipsis;
+}
+.card{
+    background-color: dimgray;
+}
