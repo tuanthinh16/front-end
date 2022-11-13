@@ -20,16 +20,16 @@ function App() {
     <SnackbarProvider>
     <Router>
       <Switch>
-          <Route path="/login"><Login /></Route>
-          <Route path="/register"><Register /></Route>
-          <Route path="/logout"><Logout /></Route>
-          <Route path="/profile/:value" children={<Profile />}></Route>
-          <Route path="/user-profile/:username" children={<UserProfile />}></Route>
-          <Route path="/book/add-book"><AddBook /></Route>
-          <Route path="/book/profile/:idBook" children={<BProfile />}></Route>
-          <Route path='/book/sell-book'><SellForm /></Route>
-          <Route path='/wallet/:username' children ={<Wallet />}></Route>
-          <Route path='/'><Home /></Route>
+          <Route path="/front-end/login"><Login /></Route>
+          <Route path="/front-end/register"><Register /></Route>
+          <Route path="/front-end/logout"><Logout /></Route>
+          <Route path="/front-end/profile/:value" children={<Profile />}></Route>
+          <Route path="/front-end/user-profile/:username" children={<UserProfile />}></Route>
+          <Route path="/front-end/book/add-book"><AddBook /></Route>
+          <Route path="/front-end/book/profile/:idBook" children={<BProfile />}></Route>
+          <Route path='/front-end/book/sell-book'><SellForm /></Route>
+          <Route path='/front-end/wallet/:username' children ={<Wallet />}></Route>
+          <Route path='/front-end/'><Home /></Route>
 
 {/* 
         <Route path="/">
